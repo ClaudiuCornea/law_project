@@ -31,10 +31,17 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.frank-ruhl-libre-300 {
+.frank-ruhl-libre-500 {
   font-family: "Frank Ruhl Libre", serif;
   font-optical-sizing: auto;
   font-weight: 500;
+  font-style: normal;
+}
+
+.frank-ruhl-libre-700 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
 }
 
