@@ -38,23 +38,23 @@ export default function Home() {
               News & Publications
             </h2>
           </div>
-          <div className="flex-[2_2_0%] flex flex-row justify-center items-center gap-8">
+          <div className="flex-[2_2_0%] flex flex-row justify-center items-center gap-6">
             <div className="flex-1 flex flex-col justify-end items-start bg-[url('/skyscrapers.jpg')] bg-cover bg-center h-3/4 shadow group">
-              <div className="bg-slate-100 px-4 py-3 w-full md:w-3/4 h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg">
-                <h3 className="text-xl text-[#0161A7] open-sans-700">
+              <div className="bg-slate-100 p-5 w-full md:w-11/12 h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg flex flex-col gap-4">
+                <h3 className="text-2xl text-[#0161A7] roboto-condensed-semibold">
                   Delighted that Apple is opening NFC in Europe
                 </h3>
-                <p className="text-[#0161A7] roboto-thin">
+                <p className="text-sm text-[#0161A7] hind-vadodara-light">
                   March 10, 2024
                 </p>
               </div>
             </div>
             <div className="flex-1 hidden lg:flex flex-col justify-end items-start bg-[url('/skyscrapers.jpg')] bg-cover bg-center h-3/4 shadow group">
-              <div className="bg-slate-100 px-4 py-3 w-full md:w-3/4 h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg">
-                <h3 className="text-xl text-[#0161A7] open-sans-700">
+              <div className="bg-slate-100 p-5 w-full md:w-11/12 h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg flex flex-col gap-4">
+              <h3 className="text-2xl text-[#0161A7] roboto-condensed-semibold">
                   Looking ahead to PSD3 - Strong Customer Authentication
                 </h3>
-                <p className="text-[#0161A7] roboto-thin">
+                <p className="text-sm text-[#0161A7] hind-vadodara-light">
                   October 1, 2022
                 </p>
               </div>
@@ -81,33 +81,33 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex-[3_3_0%] flex flex-row justify-center items-center gap-8">
-            <div className="flex-1 flex flex-col justify-end items-end bg-[url('/andrea_dematteis.jpeg')] bg-cover bg-center h-4/5 shadow group">
-              <div className="bg-slate-100 px-4 py-3 w-fit h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg">
-                <h3 className="text-right text-lg text-[#0161A7] open-sans-700">
+          <div className="flex-[3_3_0%] flex flex-row justify-center items-center gap-6">
+            <div className="flex-1 flex flex-col justify-end items-end gap-4 bg-[url('/andrea_dematteis.jpeg')] bg-cover bg-center h-4/5 shadow group">
+              <div className="bg-slate-100 p-4 w-fit h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg flex flex-col gap-2">
+                <h3 className="text-right text-xl text-[#0161A7] roboto-condensed-semibold">
                   Andrea De Matteis
                 </h3>
-                <p className="text-[#0161A7] roboto-thin text-right">
+                <p className="text-[#0161A7] text-sm yantramanav-regular text-right">
                   Founding Partner
                 </p>
               </div>
             </div>
             <div className="flex-1 hidden md:flex flex-col justify-end items-end bg-[url('/simone_giordano.jpeg')] bg-cover bg-center h-4/5 shadow group">
-              <div className="bg-slate-100 px-4 py-3 w-fit h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg">
-                <h3 className="text-right text-lg text-[#0161A7] open-sans-700">
+              <div className="bg-slate-100 p-4 w-fit h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg flex flex-col gap-2">
+                <h3 className="text-right text-xl text-[#0161A7] roboto-condensed-semibold">
                   Simone Giordano
                 </h3>
-                <p className="text-[#0161A7] roboto-thin text-right">
+                <p className="text-[#0161A7] text-sm yantramanav-regular text-right">
                   Partner
                 </p>
               </div>
             </div>
             <div className="flex-1 hidden lg:flex flex-col justify-end items-end bg-[url('/Denise-Campagna.jpeg')] bg-cover bg-center h-4/5 shadow group">
-              <div className="bg-slate-100 px-4 py-3 w-fit h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg">
-                <h3 className="text-right text-lg text-[#0161A7] open-sans-700">
+              <div className="bg-slate-100 p-4 w-fit h-fit -mb-1 md:-ml-1 shadow group-hover:shadow-lg flex flex-col gap-2">
+                <h3 className="text-right text-xl text-[#0161A7] roboto-condensed-semibold">
                   Denise Campagna
                 </h3>
-                <p className="text-[#0161A7] roboto-thin text-right">
+                <p className="text-[#0161A7] text-sm yantramanav-regular text-right">
                   Associate
                 </p>
               </div>
@@ -130,45 +130,45 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex-[3_3_0%] flex-wrap flex flex-row justify-center items-center gap-8">
-          <div className="flex flex-col justify-end items-center bg-[url('/logo-mastercard.png')] bg-contain bg-no-repeat bg-center w-1/3 md:w-1/4 lg:w-1/5 h-2/5">
-              <div className="px-4 py-3 w-fit h-fit -mb-4 -ml-1">
-                <h3 className="text-[#0161A7] open-sans-700">
+          <div className="flex-[3_3_0%] flex-wrap flex flex-row justify-center items-center gap-6">
+            <div className="flex flex-col justify-end items-center bg-[url('/logo-mastercard.png')] bg-contain bg-no-repeat bg-center w-1/3 md:w-1/4 lg:w-1/5 h-2/5">
+              <div className="p-5 w-fit h-fit -mb-4 -ml-1">
+                <h3 className="text-[#0161A7] text-sm roboto-condensed-semibold">
                   Master Card
                 </h3>
               </div>
             </div>
             <div className="flex flex-col justify-end items-center bg-[url('/logo-mastercard.png')] bg-contain bg-no-repeat bg-center w-1/3 md:w-1/4 lg:w-1/5 h-2/5">
-              <div className="px-4 py-3 w-fit h-fit -mb-4 -ml-1">
-                <h3 className="text-[#0161A7] open-sans-700">
+              <div className="p-5 w-fit h-fit -mb-4 -ml-1">
+                <h3 className="text-[#0161A7] text-sm roboto-condensed-semibold">
                   Master Card
                 </h3>
               </div>
             </div>
             <div className="flex flex-col justify-end items-center bg-[url('/logo-mastercard.png')] bg-contain bg-no-repeat bg-center w-1/3 md:w-1/4 lg:w-1/5 h-2/5">
-              <div className="px-4 py-3 w-fit h-fit -mb-4 -ml-1">
-                <h3 className="text-[#0161A7] open-sans-700">
+              <div className="p-5 w-fit h-fit -mb-4 -ml-1">
+                <h3 className="text-[#0161A7] text-sm roboto-condensed-semibold">
                   Master Card
                 </h3>
               </div>
             </div>
             <div className="flex flex-col justify-end items-center bg-[url('/logo-mastercard.png')] bg-contain bg-no-repeat bg-center w-1/3 md:w-1/4 lg:w-1/5 h-2/5">
-              <div className="px-4 py-3 w-fit h-fit -mb-4 -ml-1">
-                <h3 className="text-[#0161A7] open-sans-700">
+              <div className="p-5 w-fit h-fit -mb-4 -ml-1">
+                <h3 className="text-[#0161A7] text-sm roboto-condensed-semibold">
                   Master Card
                 </h3>
               </div>
             </div>
             <div className="hidden md:flex flex-col justify-end items-center bg-[url('/logo-mastercard.png')] bg-contain bg-no-repeat bg-center w-1/3 md:w-1/4 lg:w-1/5 h-2/5">
-              <div className="px-4 py-3 w-fit h-fit -mb-4 -ml-1">
-                <h3 className="text-[#0161A7] open-sans-700">
+              <div className="p-5 w-fit h-fit -mb-4 -ml-1">
+                <h3 className="text-[#0161A7] text-sm roboto-condensed-semibold">
                   Master Card
                 </h3>
               </div>
             </div>
             <div className="hidden md:flex flex-col justify-end items-center bg-[url('/logo-mastercard.png')] bg-contain bg-no-repeat bg-center w-1/3 md:w-1/4 lg:w-1/5 h-2/5">
-              <div className="px-4 py-3 w-fit h-fit -mb-4 -ml-1">
-                <h3 className="text-[#0161A7] open-sans-700">
+              <div className="p-5 w-fit h-fit -mb-4 -ml-1">
+                <h3 className="text-[#0161A7] text-sm roboto-condensed-semibold">
                   Master Card
                 </h3>
               </div>
